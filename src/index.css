@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  background-color: #0a192f; /* Restore original dark background */
+  color: #ccd6f6; /* Original text color */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
